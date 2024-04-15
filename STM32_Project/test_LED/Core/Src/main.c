@@ -93,12 +93,10 @@ int main(void)
   while (1)
   {
 		
-		//TODO Ex1 (TEST_LED)
+		//TODO Ex2 (TEST_LED)
 		
-		HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin, GPIO_PIN_SET);
-		HAL_Delay(1000);
-		HAL_GPIO_WritePin(LED_GPIO_Port,LED_Pin, GPIO_PIN_RESET);
-		HAL_Delay(1000);
+		HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);	//ham dao trang thai
+		
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
