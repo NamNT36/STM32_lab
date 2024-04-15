@@ -96,6 +96,8 @@ int main(void)
 		//TODO Ex2 (TEST_LED)
 		
 		HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);	//ham dao trang thai
+		HAL_Delay(3000);
+		
 		
     /* USER CODE END WHILE */
 
